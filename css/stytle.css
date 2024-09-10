@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(3, 209, 250), rgb(255, 249, 192));
+}
+
+.cajaAmarilla{
+    height: 100px;
+    background: linear-gradient(rgb(250, 184, 3), rgb(255, 249, 192));
+    color: white;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(tipografy/Simpsonfont\ DEMO.otf);
+  }
+
+  h1, h2 {
+    font-family: 'myFirstFont';
+}
+
+h1{
+    padding-top: 25px;
+
+}
+
+footer{
+    background-color: rgb(170, 216, 238);
+}
+
+footer p{
+    padding-top: 5px;
+}
+
+.cajapers {
+    background-color: cadetblue;
+    padding: 20px;
+    border: 5px solid rgb(211, 159, 47); /* Ajusta el grosor y el color del borde según tu preferencia */
+    background: linear-gradient(rgb(3, 209, 250), rgb(255, 249, 192));
+
+}
+
+
+.texto{
+    border-radius: 15px;
+    border: 5px solid rgb(233, 145, 22); 
+}
+
+.CajaGrande1{
+    background-color: cadetblue;
+    border: 5px solid rgb(211, 159, 47); /* Ajusta el grosor y el color del borde según tu preferencia */
+    background: linear-gradient(rgb(3, 209, 250), rgb(255, 249, 192));
+}
+
+.CajaGrande2{
+    background-color: cadetblue;
+    border: 5px solid rgb(211, 159, 47); /* Ajusta el grosor y el color del borde según tu preferencia */
+    background: linear-gradient(rgb(3, 209, 250), rgb(255, 249, 192));
+}
+
+.CajaGrande2 img{
+    position: relative; 
+    top: 10%;
+}
+
